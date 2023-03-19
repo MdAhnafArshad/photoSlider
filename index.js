@@ -13,7 +13,7 @@ const imgEL = document.getElementById('slider-img');
 
 // DOM elements
 const intervalId = setInterval(() => {
-    if(indexCounter == 5) {
+    if(indexCounter === images.length) {
         indexCounter = 0;
     }
     const imgUrl = images[indexCounter];
